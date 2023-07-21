@@ -19,7 +19,7 @@ CMD ["npm", "run", "preview"]
 # COPY vite.config.ts .
 # RUN npm install --production --silent && mv node_modules ../
 
-# COPY . .
+# COPY . . 
 # EXPOSE 3000
 
 # # RUN npm i vite
